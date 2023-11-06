@@ -1,0 +1,40 @@
+@import "./normalize.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #e1e1e1;
+  background-color: black;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fa6905;
+}
+
+.header__inner-logo {
+  padding: 18px 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.header__inner-logo span {
+  color: black;
+}
